@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)http://localhost/food-court/order.php?food_id=24 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="./Restaurant Website_files/style.css">
+</head>
+
+<body>
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="http://localhost/food-court/order.php?food_id=24#" title="Logo">
+                    <img src="./Restaurant Website_files/logo.png" alt="Restaurant Logo" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="http://localhost/food-court/">Home</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/food-court/categories.php">Categories</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/food-court/foods.php">Foods</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/food-court/order.php?food_id=24#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Navbar Section Ends Here -->
+<script>
+                function text(x){
+                       if(x==1){
+                        document.getElementById("mycode").style.display="block";
+                    }
+                     else{
+                            document.getElementById("mycode").style.display="none";
+                     }
+                         return;
+                     }
+                     </script>
+
+    <!-- fOOD sEARCH Section Starts Here -->
+    <section class="food-search">
+        <div class="container">
+            
+            <h2 class="text-center text-white color">Fill this form to confirm your order</h2>
+
+            <form action="http://localhost/food-court/receipt.php" method="POST" class="order">
+                <fieldset>
+                    <legend class="legend">Selected Food</legend>
+
+                    <div class="food-menu-img">
+                                                                <img src="./Restaurant Website_files/Food-Name-8.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+
+                                                                         
+                        
+                    </div>
+    
+                    <div class="food-menu-desc">
+                        <h3>Kabab</h3>
+                        <input type="hidden" name="food" value="Kabab">
+                        <p class="order-price">₹25.00</p>
+                        <input type="hidden" name="price" value="25.00">
+                        <div class="order-label">Quantity</div>
+                        <input type="number" name="qty" class="input-responsive" value="1" required="">
+                        
+                    </div>
+
+                </fieldset>
+                
+                <fieldset>
+                    <legend class="legend">Reserve Details</legend>
+                    <div class="order-label">Full Name</div>
+                    <input type="text" name="full-name" placeholder="Enter your name" class="input-responsive" required="">
+                    <div class="order-label">User Id</div>
+                    <input type="text" name="user_id" placeholder="Enter your USN/FID" class="input-responsive" required="">
+
+                    <div class="order-label">Phone Number</div>
+                    <input type="tel" name="contact" placeholder="E.g. 9843xxxxxx" class="input-responsive" required="">
+
+                    <div class="order-label">Email</div>
+                    <input type="email" name="email" placeholder="E.g.abc@gmail.com" class="input-responsive" required="">
+                    <div class="order-label">Available Time</div>
+                    <input type="time" name="Available-Time" placeholder="E.g 1.00pm" class="input-responsive" required="">
+                    </fieldset>
+                     <fieldset>
+                     <legend class="legend">Reserve Details</legend>
+                     <br><br>
+                      
+                <br>
+                        <h3 style="color:blue; font-size=10;">Type of Mode</h3>
+                <br>
+                
+                            
+                        <input type="radio" class="payment-label" name="payment" value="cash on delivery" onclick="text(0)">Cash on delivery
+                        <br><br>
+                        <input type="radio" class="payment-label" name="payment" value="online payment" onclick="text(1)">Online payment
+                <br>
+                <br>
+                              <!--  <div class="content">-->
+                        <div id="mycode" style="display:none">
+                               
+                                <div class="payment-label">
+                                    <div>Name on Card :</div>
+                                    <input type="text" name="card" placeholder="mr. john deo">
+                                </div>
+                                <div class="payment-label">
+                                    <div>Credit Card number :</div>
+                                    <input type="number" name="credit_no" placeholder="1111-2222-3333-4444">
+                                </div>
+                                <div class="payment-label">
+                                    <div>Exp Month :</div>
+                                    <input type="text" name="exp_month" placeholder="january">
+                                </div>
+
+                        </div>
+                    
+                    <br>
+                    <br>
+                   <input type="submit" name="submit" value="Proceed" class="btn btn-primary">
+                   <!-- <a href="http://localhost/food-court/receipt.php?id=<br />
+<b>Warning</b>:  Undefined variable $id in <b>C:\xampp\htdocs\food-court\order.php</b> on line <b>139</b><br />
+" class="btn btn-primary" type="submit" name="submit">Delete Admin</a>
+                </fieldset>
+
+            </form>     
+
+            
+
+        </div>
+    </section>
+    <! fOOD sEARCH Section Ends Here -->
+
+    <!-- social Section Starts Here -->
+<section class="social">
+        <div class="container text-center">
+            <ul>
+                <li>
+                    <a href="http://localhost/food-court/order.php?food_id=24#"><img src="./Restaurant Website_files/facebook-new.png"></a>
+                </li>
+                <li>
+                    <a href="http://localhost/food-court/order.php?food_id=24#"><img src="./Restaurant Website_files/instagram-new.png"></a>
+                </li>
+                <li>
+                    <a href="http://localhost/food-court/order.php?food_id=24#"><img src="./Restaurant Website_files/twitter.png"></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- social Section Ends Here -->
+
+    <!-- footer Section Starts Here -->
+    <section class="footer">
+        <div class="container text-center">
+            <p>All rights reserved. Designed By <a href="http://localhost/food-court/order.php?food_id=24#">poori</a></p>
+        </div>
+    </section>
+    <!-- footer Section Ends Here -->
+
+
+</fieldset></form></div></section></body></html>

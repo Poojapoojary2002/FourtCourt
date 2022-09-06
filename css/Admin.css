@@ -1,0 +1,147 @@
+/*
+AUTHOR NAME:POOJA 
+THEME:FOOD COURT
+
+*/
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    
+    padding: 1%;
+    width:80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+    color:ghostwhite;
+  
+
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.tbl-full{
+    width:100%;
+}
+.tbl-30{
+    width:30%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align:left;
+}
+table tr td{
+    padding :1%;
+}
+.btn-primary{
+    background-color: blue;
+    padding:1%;
+    color:cornsilk;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: darkgray;
+
+}
+.btn-secondary{
+    background-color: rgb(0, 255, 128);
+    padding:1%;
+    color:cornsilk;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: rgb(169, 169, 169);
+
+}
+.btn-danger{
+    background-color: rgb(255, 72, 0);
+    padding:1%;
+    color:cornsilk;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: rgb(169, 169, 169);
+
+}
+.success{
+    color:green;
+}
+.error{
+    color:crimson;
+}
+/*css for menu*/
+.Menu{
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+.Menu ul{
+    list-style-type: none;
+}
+.Menu ul li{
+    display: inline;
+    padding:1%;
+
+}
+.Menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+
+}
+.Menu ul li a:hover{
+    color:#ff4757;
+}
+/*css for Main Content*/
+.Main-Content{
+   
+    background-color:lightcyan;
+    padding: 3% 0%;
+}
+.col-4{
+    width: 18%;
+    background-color: black;
+    margin:1%;
+    padding: 2%;
+    float: left;
+}
+/*css for footer*/
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/* css for login*/
+.login{
+    width:10%;
+    border:1px solid gray;
+    margin:5% auto;
+    padding:2%;
+    color:ghostwhite;
+  
+    
+    background-image: url(../images/admin.jpg);
+}
+.admin{
+    background-image: url(../images/admin2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10% 0;
+    
+}
